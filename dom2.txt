@@ -1,0 +1,29 @@
+1. 	pwd
+2.	mkdir test 3
+3.	touch 4 5 6
+	echo row1 > 4
+	echo row2 >> 4
+	echo row3 >> 4
+	echo row4 >> 4
+	echo row1 > 5
+	echo row2 >> 5
+	echo row3 >> 5
+	echo row4 >> 5
+	echo row1 > 6
+	echo row2 >> 6
+	echo row3 >> 6
+	echo row4 >> 6
+4.	grep -i "row2" /5   
+5.	grep -i "row*” /test3	
+6.	grep –c “row” /6 –c
+7.	find /test3 -name 5
+8.	find /test3 -name 5 -delete
+9. 	echo test >> 4  
+10.	sed “s/test/fail/g” 4  
+11.	echo test >> 4
+12.	top
+13.	kill 666
+14.	ping  artsiomrusau.com 
+15. 	ping -c 5 artsiomrusau.com
+16.	curl -XGET https://petstore.swagger.io/pet
+17.	curl –X POST https://petstore.swagger.io/user --data "id=0" "username=egorshilov” --data "firstName=egor” --data "lastName=shilov” --data "email=egorshil@gmail.com” --data "password=egor123” --data "phone=375335555555” --data "userStatus=1”
